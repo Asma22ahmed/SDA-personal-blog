@@ -1,229 +1,110 @@
 HTML CODE:
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylesda.css">
+    <title>My Website-Asma</title>
+</head>
+<body>
+    <header>
+        <a  href="#" class="logo">Asma</a>
+        <nav class="navigation">
+            <a href="#services"> Services</a>
+            <a href="#projects"> Projects</a>
+            <a href="#contact"> Contacts</a>
+        </nav>
+    </header>
 
-*{
-  
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+    <section class="main">
+        <div>
+            <h2> Hello ! I am Asma <br><span> Web Developer</span></h2>
+            <h3> CIS Student </h3>
+            <a href="#projects" class="main-btn"> View my WORK</a>
+            <div class="social-icons">
+                <a herf="#"><i class=" fab fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-brands fa-github"></i></a>
 
-header{
-    background-color:rgb(193, 183, 209);
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 200px;
-}
+            </div>
+        </div>
 
-.logo {
-    text-decoration: none;
-    color: rgb(90, 12, 135);
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1.5em;
-}
+    </section>
 
-.navigation{
-    color: bisque;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 300;
-    padding-left: 30px;
-}
+    <section class="cards" id="SERVICES">
+        <h2 class="title"> SERVICES</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-regular fa-pen-fancy"></i>                </div>
+               <div class="inf">
+    <h3>design</h3>
+    <p> I am interested in design and I have some designs that I made before</p>
+       </div>
+       </div>
+       <div class="card">
+        <div class="icon">
+            <i class="fas fa-regular fa-pen"></i>
+          </div>
+       <div class="inf">
+<h3>Writing</h3>
+<p> I am good at writing some research and choosing good content</p>
+</div>
+</div>
+        </div>
+    </section>
 
-section{
-    padding: 100px 200px;
-}
+<section class="projects" id="prpjects">
+    <h2 class="title"> Projects</h2>
+    <div class="content">
+    <div class="project-card">
+        <div class="project-image">
+            <img src="image/th.jpeg"/>
 
-.main{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(image/1\ image.jpg) no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-size: 400px;
-    background-attachment: fixed;
-}
+    </div>
+    <div class="prpject-info">
+        <p class="prpject-catejory">Writing</p>
+        <strong class="project-title">
+            <span> I am good at writing some research and choosing good content </span>
+        </strong>
 
-.main h2{
-    color: rgb(161, 45, 138);
-    font-size: 1.5em;
-    font-weight: 500;
+    </div>
+    </div>
+    
+    
+    </div>
+    </div>
+    </div>
+</section>
+<section class="cards content" id="content">
+    <h2 class="title"> Lets Work Together</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-phone"></i>               
+             </div>
+           <div class="inf">
+<h3>Phone</h3>
+<p>050.......</p>
+   </div>
+   </div>
+    </div>
+</section>
 
-}
+<footer class="footer">
+    <p class="footer-title">Copyrights @<span> Asma</span></p>
 
-.main h2 span{
-    color: rgb(112, 106, 106);
-    font-size: 2em;
-    font-weight: 600;
+<div class="social-icons">
+                <a herf="#"><i class=" fab fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-brands fa-github"></i></a>
 
-}
-.main h3{
-    color:darkmagenta ;
-    font-size:2em ;
-    font-weight:700 ;
-}
-
-.main-btn{
-color: rgb(115, 113, 110);
-background-color: bisque;
-text-decoration: none;
-font-size: 1.1em;
-font-weight: 500;
-display: inline-block;
-padding: 0.9375em 2.18;
-letter-spacing: 1px;
-border-radius: 15px;
-margin-bottom: 40px;
-transition: 0.5s ease;
-}
-
-.main-btn:hover{
-    background-color:rgb(216, 183, 231) ;
-    transform: scale(1.1);
-}
-
-.social-icons a{
-    color: rgb(40, 46, 46);
-    font-size: 1.7em;
-    padding-bottom: 30px;
-}
-
-.title{
-    display: flex;
-    justify-content: center;
-    color: rgb(122, 97, 147);
-    font-size: 2.2em;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.card{
-    background-color: rgb(194, 192, 189);
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
-
-}
-
-.card:hover{
-    transform: scale(1.1);
-}
-
-.icon{
-    color: rgb(121, 102, 139);
-    font-size: 5em;
-    text-align: center;
-}
-
-.info{
-    text-align: center;
-}
-.info h3{
-    color: rgb(202, 182, 220);
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 10px;
-}
-
-.projects{
-    background-color: rgb(215, 195, 234);
-
-}
-
-.projects .content{
-    margin-top: 20px;
-}
-
-.project.card{
-    background-color: aqua;
-    border: 1px solid #fff;
-    height: 12em;
-    width: 20em;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.5s ease;
-}
-
-.project.card:hover{
-   transform: scale(1.1); 
-}
-
-.project.card:hover .project-image{
-    opacity: 0.9;
-}
-.project.image img{
-    width: 10%;
-}
-
-.project-info{
-    padding: 1em;
-}
-
-.project-category{
-    font-size: 0.8em;
-    color: aqua;
-}
-
-.project-title{
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-.contact .icon{
-    font-size: 4.5em;
-}
-
-.contact .info h3{
-    color: blue;
-
-}
-
-.footer{
-    background-color: rgb(220, 180, 237);
-    color: rgb(57, 55, 57);
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-title{
-    font-size: 1.3em;
-    font-weight: 500;
-}
-
-.footer-title span{
-    color: rgb(163, 22, 179);
-}
-.footer .social-icons a{
-    font-size: 1.3em;
-    padding: 0 12px 0 0;
-}
-
-
-
-
+            </div>
+</footer>
+</body>
+</html>
 
 
 
